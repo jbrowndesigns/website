@@ -53,7 +53,8 @@
   padding: 2rem 0;
 }
 
-.info p {
+.info p,
+#services p {
   font-size: 1em;
 }
 
