@@ -279,14 +279,17 @@ p {
   background: url("../img/beaumontChamber2.png");
   box-shadow: 2px 2px 20px #ff866c;
 }
-
-@media screen and (max-width: 1300px) {
+/* was 1300px before */
+@media screen and (max-width: 1375px) {
   .client-1,
   .client-2,
   .client-3,
   .client-4 {
     height: 200px;
     width: 200px;
+  }
+  .items .item > img {
+    max-height: 150px;
   }
 }
 
@@ -317,6 +320,9 @@ p {
 }
 #services .items .item h3 {
   color: var(--btn-color-dark);
+}
+.item > img {
+  max-height: 300px;
 }
 
 #services .items .item i {

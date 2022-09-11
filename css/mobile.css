@@ -61,6 +61,9 @@
 #services .items {
   display: block;
 }
+.item > img {
+  max-height: 150px;
+}
 
 #footer h3 {
   padding: 0.5rem;
