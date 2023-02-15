@@ -114,11 +114,21 @@ p {
   justify-content: center;
   align-items: center;
 }
+
+.simple-flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 0 1rem;
+}
+
 .text-center {
   text-align: center;
 }
 
-/*NAVEBAR*/
+/*******************************************************NAVBAR*/
 
 #navbar {
   background: var(--secondary-color);
@@ -150,7 +160,7 @@ p {
   border-radius: 5px;
 }
 
-/*SHOWCASE*/
+/**********************************************SHOWCASE*/
 
 #showcase {
   background: #333 url("../img/showcase-edit.png") no-repeat center center/cover;
@@ -185,8 +195,39 @@ p {
   font-family: "Courgette", cursive;
   color: #fff;
 }
+/****************************************************** CONTACT */
+dialog {
+margin: auto;
+padding: 1rem;
+}
 
-/* MAIN */
+form {
+  display: grid;
+ }
+
+ input, textarea {
+  margin-bottom: 10px;
+  font-size: 16pt;
+  overflow: hidden;
+ }
+
+.form .text-field {
+  padding-bottom: 100px;
+  word-wrap:break-word;
+}
+
+.modal .form-header{
+  display: flex;
+  justify-content: space-between;
+  min-width: 300px;
+}
+
+.close-btn{
+  font-size: large;
+  padding: 0 10px;
+}
+
+/************************************************* MAIN */
 
 #about {
   display: flex;
@@ -303,7 +344,7 @@ p {
   }
 }
 
-/* SERVICES */
+/***************************************************** SERVICES */
 #services {
   background: #fff;
 }
@@ -337,7 +378,7 @@ p {
   min-width: 75px;
 }
 
-/* FOOTER */
+/******************************************************* FOOTER */
 
 #footer {
   background: #222;

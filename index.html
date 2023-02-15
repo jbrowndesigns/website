@@ -52,6 +52,7 @@
   <!-- Body -->
   <body id="home">
     <title>JBrown Designs | Your personal website</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     <!-- NAVBAR -->
     <nav id="navbar">
       <h1 class="logo">
@@ -96,9 +97,34 @@
         <p>
           The day I used my phone to navigate through my college's website was the day I started my career on Web Design. Their layout was cluttered and very difficult to navigate, especially when viewed on a phone. It was a tedious act just to pinch and swipe to locate their campus map. It dawned on me that this shouldn’t be deemed acceptable. From that point on, I knew what my passion was to be; to make better websites that can be viewed anywhere, on any device.
         </p>
-        <div class="flex-center">
-          <a href="#services" class="btn mt-1">My Services</a>
+        <div class="simple-flex">
+          <a href="#services" class="btn mt-1"><i class="fas fa-wrench"></i> My Services</a>
+          <a href="https://github.com/jbrowndesigns" target="_blank" class="btn mt-1"><i class="fab fa-github"></i> My Git</a>
+          <a href="#about" class="btn mt-1 open-btn"><i class="fas fa-envelope-open-text"></i> Contact Me</a>
         </div>
+        <!-- MODAL FORM -->
+        <dialog class="modal" id="modal">
+          <div class="form-header">
+            <h1>Contact Me</h1>
+            <button class="btn close-btn"><i class="fab fa-xing"></i></button>
+          </div>
+          <div class="contact-container">
+            <form class="form" action="https://formsubmit.co/brown.jdesign@gmail.com" method="POST">
+              <!-- Table Format -->
+              <input type="hidden" name="_template" value="table">        
+              <label>Your Name</label>
+              <input type="text" name="name" required>
+              <label>Your Email</label>
+              <input type="email" name="_replyto"  required>
+              <textarea class="text-field" name="text-field"></textarea>
+              <input type="hidden" name="_subject" value="New submission!">
+              <!-- UPDATE THANK YOU PAGE -->
+              <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html"> 
+              <button class="btn submit" type="submit">Send</button>
+            </form>
+          </div>
+      
+        </dialog>
       </div>
     </section>
     <!-- SERVICES  -->
@@ -127,7 +153,7 @@
           </div>
         </div>
         <h2 class="py-2">Why should you pick me?</h2>
-        <p>In my earlier part of my career, one of my strongest skills while working in luxury retail was listening to my clients needs. I never forced anything on them that wasn't sought after. When they were torn on making a decision, I reminded them what their needs were while clarifying they were still the decision maker. I carried this polished skill over into my web career and my clients couldn't be happier to know they are not just another invoice number. I take pride in my work and strive to make it personalized instead of another cookie cutter template bloated with features or information that take away from the goal of your website.</p>
+        <p>In the earlier part of my life, one of my strongest skills I developed while working in luxury retail was listening to my clients needs and providing solutions. When they were torn on making a decision, I gave them my honest opinion but reminded them what their needs were. I carried this polished skill over into my web career and my clients couldn't be happier to know they are not just another invoice number. I take pride in my work and strive to make it personalized instead of another cookie cutter template bloated with features or information that take away from the goal of a website.</p>
       </div>
     </section>
     <!-- Footer -->
