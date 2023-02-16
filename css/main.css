@@ -84,7 +84,7 @@ p {
 .lead {
   font-size: 1.3rem;
 }
-.btn {
+.btn, .submit-btn {
   display: inline-block;
   color: #fff;
   background: var(--btn-color);
