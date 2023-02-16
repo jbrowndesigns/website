@@ -6,8 +6,8 @@ const submit = document.querySelector('.submit');
 
 openModal.addEventListener('click', ()=>{
   modal.showModal();  
-  submit.addEventListener('click', ()=>{ console.log('I was clicked');
-  });
+  // submit.addEventListener('click', ()=>{ console.log('I was clicked');
+  // });
 });
 
 closeModal.addEventListener('click', ()=>{ modal.close();}
