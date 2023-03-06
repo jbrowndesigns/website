@@ -1,6 +1,6 @@
 'use strict';
 
-
+const contactLink = document.querySelector('#contact');
 const openModal = document.querySelector('.open-btn');
 const closeModal = document.querySelector('.close-btn');
 const modal = document.querySelector('.modal');
@@ -9,9 +9,12 @@ const submit = document.querySelector('.submit');
 
 openModal.addEventListener('click', ()=>{
   modal.showModal();  
-  // submit.addEventListener('click', ()=>{ console.log('I was clicked');
-  // });
 });
+
+contactLink.addEventListener('click', ()=>{
+  modal.showModal();  
+});
+
 
 closeModal.addEventListener('click', ()=>{ modal.close();}
 );
