@@ -6,10 +6,13 @@
   --btn-color: #ff866c;
   --btn-color-dark: #ffd06c;
   --max-width: 1500px;
-  --img-1: url("../img/fe.png") #333 no-repeat center center/cover;
+  --img-1: url("../img/beaumont-chamber-logo.png") #333 no-repeat center center/cover;
   --img-2: url("../img/yucaipa-chamber.png") #333 no-repeat center center/cover;
   --img-3: url("../img/sand-trap.png") #333 no-repeat center center/cover;
-  --img-4: url("../img/beaumont-chamber-logo.png") #333 no-repeat center
+  --img-4: url("../img/fe.png") #333 no-repeat center
+    center/cover;
+  --img-5: url("../img/passEDAicon.png") #333 no-repeat center center/cover;
+  --img-6: url("../img/toxicTatzIcon.png") #333 no-repeat center
     center/cover;
 }
 
@@ -274,7 +277,7 @@ form {
   transition: 0.9s;
 }
 .client-1:hover {
-  background: url("../img/fe-web-edit.png") no-repeat center center/cover;
+  background: url("../img/beaumontChamber2.png") no-repeat center center/cover;
   box-shadow: 2px 2px 20px #ff866c;
 }
 
@@ -317,7 +320,35 @@ form {
   transition: 0.9s;
 }
 .client-4:hover {
-  background: url("../img/beaumontChamber2.png");
+  background: url("../img/fe-web-edit.png");
+  box-shadow: 2px 2px 20px #ff866c;
+}
+.client-5 {
+  grid-area: client-5;
+  background: var(--img-5);
+  height: 300px;
+  width: 300px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 15px #ffd06c;
+  transition: 0.9s;
+}
+.client-5:hover {
+  background: url("../img/passEDAPreview.PNG") no-repeat center center/cover;
+  box-shadow: 2px 2px 20px #ff866c;
+}
+
+.client-6 {
+  grid-area: client-6;
+  background: var(--img-6);
+  height: 300px;
+  width: 300px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 15px #ff866c;
+  box-shadow: 2px 2px 15px #ffd06c;
+  transition: 0.9s;
+}
+.client-6:hover {
+  background: url("../img/toxicTatzPreview.PNG");
   box-shadow: 2px 2px 20px #ff866c;
 }
 /* was 1300px before */
@@ -325,7 +356,9 @@ form {
   .client-1,
   .client-2,
   .client-3,
-  .client-4 {
+  .client-4,
+  .client-5,
+  .client-6 {
     height: 200px;
     width: 200px;
   }
@@ -338,7 +371,9 @@ form {
   .client-1,
   .client-2,
   .client-3,
-  .client-4 {
+  .client-4,
+  .client-5,
+  .client-6 {
     height: 150px;
     width: 150px;
   }
