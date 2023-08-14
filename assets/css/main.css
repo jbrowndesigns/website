@@ -662,7 +662,7 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out;
-		background-color: #98c593;
+		background-color: #F79B6D;
 		border: 0;
 		border-radius: 3.5em;
 		color: #ffffff;
@@ -719,7 +719,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		.button:hover,
 		button:hover {
-			background-color: #a8cea4;
+			background-color: #D98960;
 		}
 
 		input[type="button"]:active,
@@ -2047,8 +2047,10 @@ input, select, textarea {
 			}
 
 			.main.style3.secondary {
-				background: #f5f6f7;
+				/* background: #f5f6f7; */
+				background: #000;
 			}
+
 
 		.main.dark {
 			color: #ffffff;
@@ -2086,13 +2088,15 @@ input, select, textarea {
 
 		}
 
+	
+
 		@media screen and (max-width: 1280px) {
 
 			.main.style2 .content {
 				width: 50%;
 			}
 
-		}
+		}	
 
 		@media screen and (max-width: 1000px) {
 
@@ -2100,6 +2104,14 @@ input, select, textarea {
 				width: 60%;
 			}
 
+		}
+		@media screen and (min-width: 737px){
+			.main.style2 .content {
+				width: 60%;
+				position: absolute;
+				top: 40px;
+			}
+		
 		}
 
 		@media screen and (max-width: 736px) {
@@ -2157,7 +2169,7 @@ input, select, textarea {
 
 		}
 
-/* Footer */
+/*************************************************************** Footer */
 
 	#footer {
 		display: -moz-flex;
@@ -2206,7 +2218,7 @@ input, select, textarea {
 
 
 
-/* Intro */
+/************************************************************ Intro */
 
 	#intro {
 		background: url("images/overlay.png"), url("../../images/introv2.png");
@@ -2216,7 +2228,7 @@ input, select, textarea {
 		background-repeat: repeat, no-repeat;
 	}
 
-/* One */
+/********************************************************** One */
 
 	#one {
 		background: url("images/overlay.png"), url("../../images/justinWithBackGround.png");
@@ -2234,7 +2246,7 @@ input, select, textarea {
 		background-position: top left, center center;
 	}
 
-/* Contact */
+/***************************************************************** Contact */
 
 	#contact {
 		overflow: hidden;
@@ -2290,6 +2302,19 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 736px) {
+			
+			#contact .box {
+				padding: 1.5em 1.5em 2em 1.5em;
+			}
+
+			#intro {
+				background: url("images/overlay.png"), url("../../images/showcase.jpg");
+				background-size: 256px 256px, cover;
+				background-attachment: fixed, fixed;
+				background-position: top left, bottom center;
+				background-repeat: repeat, no-repeat;
+			}
+
 
 			#footer ul.menu li {
 				border-left: none;
@@ -2307,25 +2332,6 @@ input, select, textarea {
 		}
 
 
-
-		@media screen and (max-width: 736px) {
-
-			#contact .box {
-				padding: 1.5em 1.5em 2em 1.5em;
-			}
-
-			#intro {
-				background: url("images/overlay.png"), url("../../images/showcase.jpg");
-				background-size: 256px 256px, cover;
-				background-attachment: fixed, fixed;
-				background-position: top left, bottom center;
-				background-repeat: repeat, no-repeat;
-			}
-
-			
-
-		}
-
 		@media screen and (max-width: 480px) {
 
 			#contact .box {
@@ -2334,7 +2340,12 @@ input, select, textarea {
 
 		}
 
-		
+		/**************************************************************** CUSTOM CHANGES  */
+
+		#contact > .content {
+			background: #000;
+			color: #fff;
+		}
 		
 		
 		
