@@ -1,200 +1,171 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <!--[if It IE9]>
-		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js:></script>
-		<![endif]-->
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" /><!-- ICON THUMBNAIL -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Courgette|Roboto+Slab&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="icon" href="images/logo.png" type="image/icon type" />
-    <meta
-      name="description"
-      content="JBrown Designs your website simply and elegantly by building it with a mobile-first strategy."
-    />
-    <meta
-      property="og:title"
-      content="JBrown Designs: Your website built by hand and designed elegantly"
-    />
-    <meta property="og:url" content="https://www.jbrowndesigns.com/" />
-    <!-- change -->
-    <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="JBrown Designs" />
-    <meta property="og:image" content="img/preview.png" />
-    <!-- change to header image location -->
-    <meta
-      property="og:description"
-      content="JBrown Designs your website simply and elegantly by building it with a mobile-first strategy."
-    />
-    <meta http-equiv="Content-Language" lang="en-us" />
-    <link rel="stylesheet" href="css/main.css" />
-    <link
-      rel="stylesheet"
-      media="screen and (max-width: 899px)"
-      href="css/mobile.css"
-    />
-    <link
-      rel="stylesheet"
-      media="screen and (min-width: 1800px)"
-      href="css/widescreen.css"
-    />
-  </head>
-  <!-- Body -->
-  <body id="home">
-    <title>JBrown Designs | Your personal website</title>
-    <!-- NAVBAR -->
-    <nav id="navbar">
-      <h1 class="logo">
-        JBrown<span class="text-primary"
-          ><i class="fas fa-laptop-code"></i></span
-        >Designs
-      </h1>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-      </ul>
-    </nav>
-    <!-- SHOWCASE -->
-    <header id="showcase">
-      <section class="showcase-content">
-        <div class="container">
-          <h1 class="L-heading">JBROWN DESIGNS</h1>
-          <p class="lead">Building your website elegantly</p>
-          <a href="#about" class="btn showcase-btn">Learn more</a>
-        </div>
-      </section>
-    </header>
-    <!--ABOUT-->
-    <section id="about">
-      <div class="grid">
-        <a href="https://www.beaumontcachamber.com/" target="_blank"
-          ><div class="client-1"></div>
-        </a>
-        <a href="http://www.yucaipachamber.org/" target="_blank"
-          ><div class="client-2"></div>
-        </a>
-        <a href="https://www.thesandtrapsportsbar.com/" target="_blank"
-          ><div class="client-3"></div>
-        </a>
-        <a href="https://regal-brigadeiros-a56132.netlify.app" target="_blank"><div class="client-4"></div>
-        </a>
-        <a href="https://www.passeda.org/" target="_blank"
-          ><div class="client-5"></div>
-        </a>
-        <a href="https://toxictatz.com/" target="_blank"><div class="client-6"></div>
-        </a>
-      </div>
-      <div class="info">
-        <h2>
-          <span class="lead">My</span><span class="text-primary"> History</span>
-        </h2>
-        <p>
-          My web design career journey began when I struggled to find my college's campus map on their website. The website mirrored the complex layout of the campus, making it difficult to navigate, especially on a phone. The frustrating experience of constantly zooming, swiping, and scrolling just to locate a simple map felt unnecessary. This lack of user-friendliness sparked my desire for building elegant and intuitive websites that prioritize user experience!
-          
-        </p>
-        <div class="simple-flex">
-          <a href="#services" class="btn mt-1"><i class="fas fa-wrench"></i> My Services</a>
-          <a href="https://github.com/jbrowndesigns" target="_blank" class="btn mt-1"><i class="fab fa-github"></i> My Git</a>
-          <div class="btn mt-1 open-btn"><i class="fas fa-envelope-open-text"></i> Contact Me</div>
-        </div>
-        <!-- MODAL FORM -->
-        <dialog class="modal" id="modal">
-          <div class="form-header">
-            <h1>Contact Me</h1>
-            <button class="btn close-btn"><i class="fab fa-xing"></i></button>
-          </div>
-          <div class="contact-container">
-            <form class="form" action="https://formsubmit.co/brown.jdesign@gmail.com" method="POST">
-              <!-- Table Format -->
-              <input type="hidden" name="_template" value="table">        
-              <label>Your Name</label>
-              <input type="text" name="name" required>
-              <label>Your Email</label>
-              <input type="email" name="email"  required>
-              <textarea class="text-field" name="text-field"></textarea>
-              <input type="hidden" name="_subject" value="New submission!">
-              <!-- UPDATE THANK YOU PAGE -->
-              <input type="hidden" name="_next" value="https://www.jbrowndesigns.com/thanks.html"> 
-              <button class="submit-btn" type="submit">Send</button>
-            </form>
-          </div>
-      
-        </dialog>
-      </div>
-    </section>
-    <!-- SERVICES  -->
-    <section id="services" class="py-3">
-      <div class="container-center">
-        <div class="items">
-          <div class="item">
-            <!-- <i class="fas fa-code fa-2x"></i> -->
-            <img src="img/custom-design-circle.png" alt="" srcset="">
-            <div><h3 class="lead">Custom Websites / Landing Pages</h3></div>
-          </div>
-          <div class="item">
-            <!-- <i class="fas fa-tasks fa-2x"></i> -->
-            <img src="img/website-management-circle.png" alt="" srcset="">
-            <div><h3 class="lead">Website Management</h3></div>
-          </div>
-          <div class="item">
-            <img src="img/mobile-design-circle.png" alt="" srcset="">
-            <!-- <i class="fas fa-mobile-alt fa-2x"></i> -->
-            <div><h3 class="lead">Web Mobile Implementation</h3></div>
-          </div>
-          <div class="item">
-            <img src="img/media-content-circle.png" alt="" srcset="">
-            <!-- <i class="fas fa-photo-video fa-2x"></i> -->
-            <div><h3 class="lead">Media / Content Editing</h3></div>
-          </div>
-        </div>
-        <h2 class="py-2">Why should you work with me?</h2>
-        <p>One of my strongest skills I developed while working in luxury retail was listening to my clients needs and providing solutions. When they were torn on making a decision, I gave them my honest opinion but reminded them what their needs were. I carried this polished skill over into my web career and my clients couldn't be happier to know they are not just another invoice number. I take pride in my work and strive to make it personalized instead of another cookie cutter template bloated with distractions or information that take away from the goal of your website.</p>
-      </div>
-    </section>
-    <!-- Footer -->
-    <footer id="footer">
-      <div class="container-center text-center">
-        <h1 class="logo">
-          JBrown<span class="text-primary"
-            ><i class="fas fa-laptop-code"></i></span
-          >Designs
-        </h1>
-        <h3 class="text-center">
-          <a id="contact"
-            href="#contact"
-            ><i class="fas fa-envelope-open-text"></i> Contact Me </a
-          >|<a href="https://www.linkedin.com/in/justindlb/" target="_blank">
-            Linked <i class="fab fa-linkedin"></i
-          ></a> | <a href="https://github.com/jbrowndesigns"><i class="fab fa-github"></i> GitHub</a>
-        </h3>
-      </div>
-    </footer>
+<!DOCTYPE HTML>
+<!-- DESIGN CREDIT BY
+	Big Picture by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>JBROWN DESIGNS</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<meta name="description" content="JBrown Designs and builds your website elegantly by building it with a mobile-first strategy.">
+		<meta name="keywords" content="website, design, beaumont">
+		<link rel="canonical" href="https://www.jbrowndesigns.com">
+		
+		<!-- Open Graph tags -->
+		<meta property="og:title" content="JBrown Designs">
+		<meta property="og:description" content="JBrown Designs and builds your website elegantly by building it with a mobile-first strategy.">
+		<meta property="og:url" content="https://www.jbrowndesigns.com">
+		<meta property="og:image" content="images/JBROWNv3.png">
+		
+		<!-- Twitter Card tags -->
+		<meta name="twitter:title" content="JBrown Designs">
+		<meta name="twitter:description" content="JBrown Designs and builds your website elegantly by building it with a mobile-first strategy.">
+		<meta name="twitter:url" content="https://www.jbrowndesigns.com">
+		<meta name="twitter:image" content="images/JBROWNv3.png">
+	</head>
+	<body class="is-preload">
 
-    <!-- Scripts -->
-    <!-- <script
-      data-cfasync="false"
-      src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
-    ></script> -->
-    <!--JQuery-->
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.min.js"
-      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-      crossorigin="anonymous"
-    ></script>
+		<!-- Header -->
+			<header id="header">
+				<h1>JBROWN<i class="fas fa-laptop-code"></i>DESIGNS</h1>
+				<nav>
+					<ul>
+						<li><a href="#one">My History</a></li>
+						<li><a href="#two">Why I'm Different</a></li>
+						<li><a href="#work">My Work</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</nav>
+			</header>
 
-    <!--JS-->
-    <script src="js/main.js"></script>
-  </body>
+		<!-- Intro -->
+			<section id="intro" class="main style1 dark fullscreen">
+				<div class="content">
+					<header>
+						<h2>JBROWN DESIGNS</h2>
+					</header>
+					<p>Building your website <strong>Elegantly</strong>
+					<footer>
+						<a href="#one" class="button style2 down">More</a>
+					</footer>
+				</div>
+			</section>
+
+		<!-- One -->
+			<section id="one" class="main style2 right dark fullscreen">
+				<div class="content box style2">
+					<header>
+						<h2>My History</h2>
+					</header>
+					<p>My web design career journey began when I struggled to find my college's campus map on their website. The website mirrored the complex layout of the campus, making it difficult to navigate, especially on a phone. The frustrating experience of constantly zooming, swiping, and scrolling just to locate a simple map felt unnecessary. This lack of user-friendliness sparked my desire for building elegant and intuitive websites that prioritize user experience!</p>
+				</div>
+				<a href="#two" class="button style2 down anchored">Next</a>
+			</section>
+
+		<!-- Two -->
+			<section id="two" class="main style2 left dark fullscreen">
+				<div class="content box style2">
+					<header>
+						<h2>Why should you work with me?</h2>
+					</header>
+					<p>One of my strongest skills I developed while working in luxury retail was listening to my clients needs and providing solutions. When they were torn on making a decision, I gave them my honest opinion but reminded them what their needs were. I carried this polished skill over into my web career and my clients couldn't be happier to know they are not just another invoice number. I take pride in my work and strive to make it personalized and elegantly to fit your needs.</p>
+				</div>
+				<a href="#work" class="button style2 down anchored">Next</a>
+			</section>
+
+		<!-- Work -->
+			<section id="work" class="main style3 primary">
+				<div class="content">
+					<header>
+						<h2>My Work</h2>
+						<p>Embarking on meaningful journeys with a diverse array of clients has been the heart of my work. Each collaboration has been an opportunity to translate unique visions into captivating realities. Here, I proudly showcase a selection of these partnerships. These are the stories, the inspirations, and the transformations I've had the privilege to be a part of.</p>
+					</header>
+
+					<!-- Gallery  -->
+						<div class="gallery">
+							<article class="from-left toxicTatz">
+								<a href="images/clients/TTP6_4.png" class="image fit"><img src="images/clients/TT6_4.png" title="Toxic Tatz" alt="" /></a>
+							</article>
+							<article class="from-right">
+								<a href="images/clients/STP6_4.PNG" class="image fit"><img src="images/clients/ST6_4.png" title="The Sand Trap Sports Bar & Grill" alt="" /></a>
+							</article>
+							<article class="from-left">
+								<a href="images/clients/BCP6_4.png" class="image fit"><img src="images/clients/BC6_4.png" title="Beaumont Chamber of Commerce" alt="" /></a>
+							</article>
+							<article class="from-right">
+								<a href="images/clients/YCP6_4.png" class="image fit"><img src="images/clients/YC6_4.png" title="Yucaipa Chamber of Commerce" alt="" /></a>
+							</article>
+							<article class="from-left">
+								<a href="images/clients/PEDAP6_4.png" class="image fit"><img src="images/clients/PEDA6_4.png" title="Pass EDA" alt="" /></a>
+							</article>
+							<article class="from-right">
+								<a href="images/clients/FEP6_4.png" class="image fit"><img src="images/clients/FE6_4.png" title="Fine Entrances" alt="" /></a>
+							</article>
+							<!-- <article class="from-left">
+								<a href="images/fulls/05.jpg" class="image fit"><img src="images/thumbs/05.jpg" title="The sparkling shell" alt="" /></a>
+							</article>
+							<article class="from-right">
+								<a href="images/fulls/06.jpg" class="image fit"><img src="images/thumbs/06.jpg" title="Bent IX" alt="" /></a>
+							</article> -->
+						</div>
+
+				</div>
+			</section>
+
+		<!-- Contact -->
+			<section id="contact" class="main style3 secondary">
+				<div class="content">
+					<header>
+						<h2>This is the start of something beautiful.</h2>
+						<p>Whether you want a new website or help just updating it, I'm here for you.</p>
+					</header>
+					<div class="box">
+						<form method="post" action="https://formsubmit.co/brown.jdesign@gmail.com">
+							<div class="fields">
+								<div class="field half"><input type="text" name="name" placeholder="Name" /></div>
+								<div class="field half"><input type="email" name="email" placeholder="Email" /></div>
+								<div class="field"><textarea name="message" placeholder="Message" rows="6"></textarea></div>
+							</div>
+							<ul class="actions special">
+								<li><input type="submit" value="Send Message" /></li>
+							</ul>
+						</form>
+					</div>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+
+				<!-- Icons -->
+					<ul class="icons">
+						<!-- <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li> -->
+						<li><a href="#" target="_blank" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="https://www.linkedin.com/in/justindlb/" target="_blank" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/jbrowndesigns" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+
+					</ul>
+
+				<!-- Menu -->
+					<ul class="menu">
+						<li>&copy; JBROWN DESIGNS</li>
+					</ul>
+
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
